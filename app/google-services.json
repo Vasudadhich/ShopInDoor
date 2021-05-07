@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "762378748336",
+    "firebase_url": "https://shopindoor-cbcf1.firebaseio.com",
+    "project_id": "shopindoor-cbcf1",
+    "storage_bucket": "shopindoor-cbcf1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:762378748336:android:84b7ba4f1f9a02b0fad675",
+        "android_client_info": {
+          "package_name": "com.example.ecommerce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "762378748336-mkl3qsc364qv809e6muad00nbuekpak5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ecommerce",
+            "certificate_hash": "41c8716ae8c7627261dbae39eec5a67d16b167fa"
+          }
+        },
+        {
+          "client_id": "762378748336-bs8onb2bcu21ek70evjhpf4l6g7q9b6d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjOCxchtA5Cyom6tYsRf9XAKimNZ1k55w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "762378748336-bs8onb2bcu21ek70evjhpf4l6g7q9b6d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminProduct">
+    <TextView
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Add New Products"
+        android:textAlignment="center"
+        android:textSize="26dp"
+        android:textStyle="bold">
+        
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout1"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="45dp"
+        android:layout_below="@+id/add">
+
+
+
+        <ImageView
+            android:id="@+id/tshirt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tshirts"
+></ImageView>
+        <ImageView
+            android:id="@+id/sport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sports"
+            ></ImageView>
+        <ImageView
+            android:id="@+id/female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/female_dresses"
+            ></ImageView>
+        <ImageView
+            android:id="@+id/sweter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sweather"
+            ></ImageView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout2"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/layout1">
+
+
+
+        <ImageView
+            android:id="@+id/glasses"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/glasses"
+            ></ImageView>
+        <ImageView
+            android:id="@+id/shoes"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/shoess"
+            ></ImageView>
+        <ImageView
+            android:id="@+id/watch"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/watches"
+            ></ImageView>
+        <ImageView
+            android:id="@+id/namkeen"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/namkeen"
+            ></ImageView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout3"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/layout2">
+
+
+
+        <ImageView
+            android:id="@+id/masala"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/masala"
+            ></ImageView>
+        <ImageView
+            android:id="@+id/paped"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/paped"
+            ></ImageView>
+        <ImageView
+            android:id="@+id/supari"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/supari"
+            ></ImageView>
+        <ImageView
+            android:id="@+id/special"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/rajasthan_special"
+            ></ImageView>
+    </LinearLayout>
+
+</RelativeLayout>

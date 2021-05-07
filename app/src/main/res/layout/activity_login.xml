@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    tools:context=".login">
+
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="match_parent"
+        android:layout_height="274dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/applogo"
+
+        >
+
+    </ImageView>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_logo"
+        android:layout_marginTop="143dp"
+        android:background="@drawable/colour"
+        android:padding="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="1dp"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="12dp"
+        ></EditText>
+    <EditText
+        android:id="@+id/paswd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/colour"
+        android:padding="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="1dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="12dp"
+        ></EditText>
+
+    <Button
+        android:id="@+id/log"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="117dp"
+        android:text="Log In"
+        android:textAllCaps="false"
+        android:textSize="20dp">
+
+    </Button>
+
+    <TextView
+        android:id="@+id/admin"
+        android:layout_width="177dp"
+        android:layout_height="53dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:text="I'm Admin"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/Users"
+        android:layout_width="177dp"
+        android:layout_height="53dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="15dp"
+        android:text="I'm User"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+
+
+</RelativeLayout>
